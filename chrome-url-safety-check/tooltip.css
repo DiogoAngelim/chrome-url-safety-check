@@ -1,0 +1,28 @@
+/* tooltip.css */
+/* Isolated styles for tooltip, applied in Shadow DOM */
+.url-safety-tooltip {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: #9c86e1 !important;
+  background-color: #9c86e1 !important;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #444;
+  max-width: 220px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.url-safety-tooltip.warning {
+  background: #b71c1c;
+  color: #fff;
+  border-color: #d32f2f;
+}
+
+.url-safety-tooltip.safe {
+  background: #388e3c;
+  color: #fff;
+  border-color: #43a047;
+}
